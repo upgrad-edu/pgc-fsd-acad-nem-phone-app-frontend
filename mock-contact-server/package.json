@@ -1,0 +1,15 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch data.json --routes routes.json --port 7081",
+    "start-large": "json-server --watch largedata.json --routes routes.json --port 7081"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
